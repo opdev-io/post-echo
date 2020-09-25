@@ -14,8 +14,8 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/echo', [EchoController::class, 'post']);
-Route::post('/echo', [EchoController::class, 'post']);
-Route::patch('/echo', [EchoController::class, 'post']);
-Route::put('/echo', [EchoController::class, 'post']);
-Route::delete('/echo', [EchoController::class, 'post']);
+Route::get('/echo', [EchoController::class, 'echo']);
+Route::post('/echo', [EchoController::class, 'echo']);
+Route::patch('/echo', [EchoController::class, 'echo']);
+Route::put('/echo', [EchoController::class, 'echo']);
+Route::delete('/echo', [EchoController::class, 'echo']);

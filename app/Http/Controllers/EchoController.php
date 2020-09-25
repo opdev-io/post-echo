@@ -13,7 +13,7 @@ class EchoController extends Controller
      * @param Request $request
      * @return Application|ResponseFactory|Response
      */
-    public function post(Request $request)
+    public function echo(Request $request)
     {
         return response([
             'status' => 'ok',
